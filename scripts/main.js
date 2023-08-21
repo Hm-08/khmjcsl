@@ -217,5 +217,5 @@
   setTimeout(() => {
     init()  
   }, 4000);
-  mp3.play()
+  //mp3.play()
 })(window)
