@@ -213,12 +213,9 @@
     if(!isChrome){
       $('#iframeAudio').remove()
     }
-    else {
-      $('#playAudio').remove()
-    }
   
   setTimeout(() => {
     init()  
   }, 4000);
-  //mp3.play()
+  mp3.play()
 })(window)
