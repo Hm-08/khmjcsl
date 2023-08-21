@@ -214,8 +214,8 @@
       $('#iframeAudio').remove()
   }
   
-  // setTimeout(() => {
+  setTimeout(() => {
     init()  
-  // }, 4000);
-  // mp3.play()
+  }, 4000);
+  mp3.play()
 })(window)
